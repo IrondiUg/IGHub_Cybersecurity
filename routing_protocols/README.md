@@ -3,6 +3,7 @@
 ## Lab Work
 **Tool Used:** Cisco Packet Tracer  
 - download from:  https://www.netacad.com/resources/lab-downloads?courseLang=en-US
+  
 **Configuration Mode:** Graphical User Interface (GUI)
 
 ---
