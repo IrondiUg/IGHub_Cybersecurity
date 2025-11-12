@@ -1,9 +1,8 @@
 # TASK: Configure Routing Protocol in the Given Network Setup
 
 ## Lab Work
-**Course:** Computer Networking  
-**Topic:** Routing Protocol Configuration (Static Routing Focus)  
 **Tool Used:** Cisco Packet Tracer  
+- download from:  https://www.netacad.com/resources/lab-downloads?courseLang=en-US
 **Configuration Mode:** Graphical User Interface (GUI)
 
 ---
@@ -27,16 +26,16 @@ To enable communication between all end devices across both LANs and understand 
 
 ##  Devices and IP Address Summary
 
-| **Device** | **Interface / Port** | **IP Address** | **Description** |
-|-------------|----------------------|----------------|-----------------|
-| Router2 | G0/0 | 192.168.15.1 | LAN 1 (Switch3) |
-| Router2 | G0/1 | 192.168.16.1 | LAN 2 (Switch4) |
-| Router2 | G1/0 | 192.168.17.1 | LAN 3 (Switch5) |
+|  Device |Port|   IP Address   | Description |
+|--------------------------------------------------------------------|
+| Router2 | G0/0 | 192.168.15.1 | Switch3 |
+| Router2 | G0/1 | 192.168.16.1 | Switch4 |
+| Router2 | G1/0 | 192.168.17.1 | Switch5 |
 | Router2 | S0/0/0 | 10.10.50.1 | Serial link to Router3 |
 | Router3 | S0/0/0 | 10.10.50.2 | Serial link to Router2 |
-| Router3 | G0/0 | 120.168.20.1 | LAN 4 (Switch6) |
-| Router3 | G0/1 | 120.168.21.1 | LAN 5 (Switch7) |
-| Router3 | G1/0 | 120.168.22.1 | LAN 6 (Switch8) |
+| Router3 | G0/0 | 120.168.20.1 | Switch6 |
+| Router3 | G0/1 | 120.168.21.1 | Switch7 |
+| Router3 | G1/0 | 120.168.22.1 | Switch8 |
 ```
 ---
 
@@ -48,11 +47,11 @@ To enable communication between all end devices across both LANs and understand 
 
 ### Step 2: Static Route Configuration
 **Router2 (Aba Hub):**
-- Destination Network: 120.168.20.0 Subnet Mask: 255.255.255.0 Next Hop: 10.10.50.2
-- Destination Network: 120.168.21.0 Subnet Mask: 255.255.255.0 Next Hop: 10.10.50.2
-- Destination Network: 120.168.22.0 Subnet Mask: 255.255.255.0 Next Hop: 10.10.50.2
+- Destination Network: 120.168.20.0, Subnet Mask: 255.255.255.0, Next Hop: 10.10.50.2
+- Destination Network: 120.168.21.0, Subnet Mask: 255.255.255.0, Next Hop: 10.10.50.2
+- Destination Network: 120.168.22.0, Subnet Mask: 255.255.255.0, Next Hop: 10.10.50.2
 
 **Router3 (Umuahia Hub):**
-- Destination Network: 192.168.15.0 Subnet Mask: 255.255.255.0 Next Hop: 10.10.50.1
-- Destination Network: 192.168.16.0 Subnet Mask: 255.255.255.0 Next Hop: 10.10.50.1
-- Destination Network: 192.168.17.0 Subnet Mask: 255.255.255.0 Next Hop: 10.10.50.1
+- Destination Network: 192.168.15.0, Subnet Mask: 255.255.255.0, Next Hop: 10.10.50.1
+- Destination Network: 192.168.16.0, Subnet Mask: 255.255.255.0, Next Hop: 10.10.50.1
+- Destination Network: 192.168.17.0, Subnet Mask: 255.255.255.0, Next Hop: 10.10.50.1
