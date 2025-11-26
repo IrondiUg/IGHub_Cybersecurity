@@ -8,53 +8,53 @@
 
 ## Completing the table
 **-A**
-Aggressive scan: OS detection, version detection, scripts, traceroute.
+- Aggressive scan: OS detection, version detection, scripts, traceroute.
 
 ---
 
 **-O**
-Enable OS detection.
+- Enable OS detection.
 
 ---
 
 **-p <port ranges>**
-Specify ports to scan (e.g., 80, 1-1000).
+- Specify ports to scan (e.g., 80, 1-1000).
 
 ---
 
 **-sF**
-FIN scan (stealth scan using FIN flag).
+- FIN scan (stealth scan using FIN flag).
 
 ---
 
 **-sn**
-Ping scan only (no port scan).
+- Ping scan only (no port scan).
 
 ---
 
 **-sS**
-SYN scan (half-open stealth scan).
+- SYN scan (half-open stealth scan).
 
 ---
 
 **-sT**
-TCP connect scan.
+- TCP connect scan.
 
 ---
 
 **-sV**
-Service/version detection.
+- Service/version detection.
 
 ---
 **-T<0–5>**
-Timing template (speed of scan).
+- Timing template (speed of scan).
 
 ---
 **-v**
-Verbose output.
+- Verbose output.
 
 ---
 **--open**
-Show only open ports.
+- Show only open ports.
 
 ---
