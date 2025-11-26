@@ -9,12 +9,15 @@
 ## Completing the table
 **-A**
 Aggressive scan: OS detection, version detection, scripts, traceroute.
+
 ---
 
 **-O**
 Enable OS detection.
+
 ---
 
 **-p <port ranges>**
 Specify ports to scan (e.g., 80, 1-1000).
+
 ---
