@@ -21,3 +21,40 @@ Enable OS detection.
 Specify ports to scan (e.g., 80, 1-1000).
 
 ---
+
+**-sF**
+FIN scan (stealth scan using FIN flag).
+
+---
+
+**-sn**
+Ping scan only (no port scan).
+
+---
+
+**-sS**
+SYN scan (half-open stealth scan).
+
+---
+
+**-sT**
+TCP connect scan.
+
+---
+
+**-sV**
+Service/version detection.
+
+---
+**-T<0–5>**
+Timing template (speed of scan).
+
+---
+**-v**
+Verbose output.
+
+---
+**--open**
+Show only open ports.
+
+---
