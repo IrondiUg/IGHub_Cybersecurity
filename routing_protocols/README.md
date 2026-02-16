@@ -15,7 +15,7 @@ To enable communication between all end devices across both LANs and understand 
 ---
 
 ## Reference Network Topology
-[![Reference Topology](./Reference_topology)](./Screenshot%202025-11-12%20141953.jpg)
+![Screenshot 2025-11-12 141953](https://github.com/user-attachments/assets/20365e32-c29f-4f0c-8e84-cccc4c3725bc)
 
 **Description:**
 - The network consists of two routers connected via a serial link.  
